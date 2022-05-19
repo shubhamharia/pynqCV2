@@ -1,0 +1,413 @@
+
+*** Running vivado
+    with args -log base_io_switch_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_io_switch_3.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source base_io_switch_3.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/cv2PYNQ_vivado'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:audio_codec_ctrl:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/audio_codec_ctrl_v1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/audio_codec_ctrl_v1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:audio_direct:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/audio_direct_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/audio_direct_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:axi_dynclk:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/axi_dynclk_v1_0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/axi_dynclk_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:boolean_generator:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/boolean_generator_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/boolean_generator_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:debouncer:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/debouncer_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/debouncer_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:dff_en_reset_vector:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/dff_en_reset_vector_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/dff_en_reset_vector_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:dvi2rgb:1.7'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/dvi2rgb_v1_7' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/dvi2rgb_v1_7
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:fsm_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/fsm_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/fsm_controller_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:fsm_io_switch:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/fsm_io_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/fsm_io_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:gclk_generator:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/gclk_generator_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/gclk_generator_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:interface_switch:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/interface_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/interface_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:io_switch:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/io_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/io_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:mux_vector:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/mux_vector_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/mux_vector_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:pattern_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/pattern_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/pattern_controller_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/rgb2dvi_v1_2' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/rgb2dvi_v1_2
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:trace_generator_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/trace_generator_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/trace_generator_controller_1.1
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'digilentinc.com:interface:tmds:1.0'. The one found in location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/if/tmds_v1_0/tmds.xml' will take precedence over the same Interface in location 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/if/tmds_v1_0/tmds.xml'
+update_ip_catalog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1059.691 ; gain = 0.000
+Command: synth_design -top base_io_switch_3 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17976
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1059.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'base_io_switch_3' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_io_switch_3/synth/base_io_switch_3.v:57]
+INFO: [Synth 8-6157] synthesizing module 'io_switch_v1_1' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/hdl/io_switch_v1_1.v:4]
+	Parameter C_INTERFACE_TYPE bound to: 4 - type: string 
+	Parameter C_IO_SWITCH_WIDTH bound to: 28 - type: integer 
+	Parameter C_NUM_PWMS bound to: 2 - type: integer 
+	Parameter C_NUM_TIMERS bound to: 3 - type: integer 
+	Parameter C_NUM_SS bound to: 2 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'io_switch_v1_1_S_AXI' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/hdl/io_switch_v1_1_S_AXI.v:4]
+	Parameter C_INTERFACE_TYPE bound to: 4 - type: string 
+	Parameter C_IO_SWITCH_WIDTH bound to: 28 - type: integer 
+	Parameter C_NUM_PWMS bound to: 2 - type: integer 
+	Parameter C_NUM_TIMERS bound to: 3 - type: integer 
+	Parameter C_NUM_SS bound to: 2 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'io_switch' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:7]
+	Parameter C_IO_SWITCH_WIDTH bound to: 28 - type: integer 
+	Parameter C_NUM_PWMS bound to: 2 - type: integer 
+	Parameter C_NUM_TIMERS bound to: 3 - type: integer 
+	Parameter C_NUM_SS bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'io_switch_bit' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:57]
+	Parameter C_NUM_PWMS bound to: 2 - type: integer 
+	Parameter C_NUM_TIMERS bound to: 3 - type: integer 
+	Parameter C_NUM_SS bound to: 2 - type: integer 
+WARNING: [Synth 8-324] index 2 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:160]
+WARNING: [Synth 8-324] index 3 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:161]
+WARNING: [Synth 8-324] index 4 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:162]
+WARNING: [Synth 8-324] index 5 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:163]
+WARNING: [Synth 8-324] index 3 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:169]
+WARNING: [Synth 8-324] index 4 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:170]
+WARNING: [Synth 8-324] index 5 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:171]
+WARNING: [Synth 8-324] index 6 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:172]
+WARNING: [Synth 8-324] index 7 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:173]
+INFO: [Synth 8-6155] done synthesizing module 'io_switch_bit' (1#1) [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch_bit.v:57]
+WARNING: [Synth 8-7071] port 'uart0_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart0_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart1_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart1_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'pwm_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_0' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_1' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_2' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_3' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_4' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_5' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_6' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_7' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart0_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart0_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart1_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart1_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sck1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'miso1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'mosi1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'ss1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'sda1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'scl1_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'pwm_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_0' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_1' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_2' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_3' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_4' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_5' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_6' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_i_7' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'timer_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:575]
+WARNING: [Synth 8-7071] port 'uart0_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'uart0_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'uart1_rx_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'uart1_tx_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'sck0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'sck0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'sck0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'miso0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'miso0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'miso0_t' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'mosi0_i' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7071] port 'mosi0_o' of module 'io_switch_bit' is unconnected for instance 'd_i' [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:590]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 9 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:605]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 9 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:605]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 9 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:605]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 10 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:619]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 19 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:633]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 19 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:633]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 19 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:633]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 19 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:633]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 9 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:650]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 9 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:650]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 10 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:664]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 10 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:664]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 10 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:678]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:692]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:692]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 11 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:705]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:719]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 14 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:719]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:734]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:734]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:747]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:747]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:747]
+WARNING: [Synth 8-7023] instance 'd_i' of module 'io_switch_bit' has 58 connections declared, but only 8 given [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:747]
+WARNING: [Synth 8-324] index 7 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:110]
+WARNING: [Synth 8-324] index 6 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:111]
+WARNING: [Synth 8-324] index 5 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:112]
+WARNING: [Synth 8-324] index 4 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:113]
+WARNING: [Synth 8-324] index 3 out of range [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:114]
+INFO: [Synth 8-6155] done synthesizing module 'io_switch' (2#1) [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/src/io_switch.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'io_switch_v1_1_S_AXI' (3#1) [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/hdl/io_switch_v1_1_S_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'io_switch_v1_1' (4#1) [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/6c92/hdl/io_switch_v1_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'base_io_switch_3' (5#1) [c:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_io_switch_3/synth/base_io_switch_3.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1059.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1059.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1059.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.127 . Memory (MB): peak = 1059.691 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1169.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 1169.934 ; gain = 0.141
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 9     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	  10 Input   32 Bit        Muxes := 8     
+	  25 Input   24 Bit        Muxes := 28    
+	   2 Input   24 Bit        Muxes := 28    
+	  32 Input    1 Bit        Muxes := 28    
+	   2 Input    1 Bit        Muxes := 61    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    71|
+|3     |LUT3 |     9|
+|4     |LUT4 |    53|
+|5     |LUT5 |    21|
+|6     |LUT6 |   377|
+|7     |FDRE |   301|
+|8     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 1169.934 ; gain = 110.242
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:10 ; elapsed = 00:01:32 . Memory (MB): peak = 1169.934 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:01:37 . Memory (MB): peak = 1169.934 ; gain = 110.242
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1169.934 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1169.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 159 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:01:56 . Memory (MB): peak = 1169.934 ; gain = 110.242
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_io_switch_3_synth_1/base_io_switch_3.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP base_io_switch_3, cache-ID = 978edc352d450411
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Home/Documents/GitHub/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_io_switch_3_synth_1/base_io_switch_3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file base_io_switch_3_utilization_synth.rpt -pb base_io_switch_3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 22 19:23:54 2022...

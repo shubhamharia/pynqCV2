@@ -1,0 +1,38 @@
+
+*** Running vivado
+    with args -log base_intr_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_intr_3.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source base_intr_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1060.598 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/cv2PYNQ_vivado'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:audio_codec_ctrl:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/audio_codec_ctrl_v1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/audio_codec_ctrl_v1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:audio_direct:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/audio_direct_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/audio_direct_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:axi_dynclk:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/axi_dynclk_v1_0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/axi_dynclk_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:boolean_generator:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/boolean_generator_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/boolean_generator_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:debouncer:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/debouncer_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/debouncer_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:dff_en_reset_vector:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/dff_en_reset_vector_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/dff_en_reset_vector_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:dvi2rgb:1.7'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/dvi2rgb_v1_7' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/dvi2rgb_v1_7
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:fsm_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/fsm_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/fsm_controller_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:fsm_io_switch:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/fsm_io_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/fsm_io_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:gclk_generator:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/gclk_generator_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/gclk_generator_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:interface_switch:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/interface_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/interface_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:io_switch:1.1'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/io_switch_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/io_switch_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:mux_vector:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/mux_vector_1.0' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/mux_vector_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:pattern_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/pattern_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/pattern_controller_1.1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/rgb2dvi_v1_2' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/rgb2dvi_v1_2
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:trace_generator_controller:1.0'. The one found in IP location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/trace_generator_controller_1.1' will take precedence over the same IP in location c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/trace_generator_controller_1.1
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'digilentinc.com:interface:tmds:1.0'. The one found in location 'c:/Users/Home/Documents/GitHub/PYNQ/boards/ip/if/tmds_v1_0/tmds.xml' will take precedence over the same Interface in location 'c:/Users/Home/Documents/GitHub/cv2PYNQ-The-project-behind-the-library/ip/PYNQ/ip/if/tmds_v1_0/tmds.xml'
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1060.598 ; gain = 0.000
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP base_intr_3, cache-ID = aeeb7b9622fb4fed.
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 22 21:16:17 2022...
